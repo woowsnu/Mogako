@@ -1,17 +1,4 @@
-// import {camp} from "./"
-
-
-// type task = ["IT", "디자인", "기획"]
-// type filed = ["벡엔드", "SQL", "프론트"]
-
-// interface camp {
-//     task : String,
-//     filed : String,
-//     status : "모집전" | "모집중" | "모집완료"
-// }
-
-
-type CampType = {
+export type CampType = {
     id: number;
     name: string;
     type: "pupular" | "sale";
@@ -22,7 +9,7 @@ type CampType = {
     thumnail: string;
 }
 
-type CampDetail = {
+export type CampDetail = {
     id: number;
     name: string;
     tags: string[];
