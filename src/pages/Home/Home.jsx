@@ -17,7 +17,9 @@ const Home = () => {
 export default Home;
 
 const Container = styled.div`
-  padding: 36px; 42px;
+  display: block;
+  max-width: 960px;
+  margin: 0 auto;
   background-color: #fff;
   color: #000;
 
