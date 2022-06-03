@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import EventBanner from "../../Banner/EventBanner";
 import CampCard from "../../CampCard";
 import CommunityCard from "../../CommunityCard";
 import MainBanner from "./MainBanner";
@@ -9,10 +10,30 @@ const Main = () => {
     <>
       <MainBanner />
       <section className="camp-area">
-        <CardWrap>{<CampCard />}</CardWrap>
+        <h2>인기 부트 캠프</h2>
+        <CardWrap>
+          <CampCard />
+          <CampCard />
+          <CampCard />
+          <CampCard />
+        </CardWrap>
+        <h2>특가 할인 캠프</h2>
+        <CardWrap>
+          <CampCard />
+          <CampCard />
+          <CampCard />
+          <CampCard />
+        </CardWrap>
       </section>
+      <EventBanner />
       <section className="community-area">
-        <CardWrap>{<CommunityCard />}</CardWrap>
+      <h2>커뮤니티</h2>
+        <CardWrap>
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+        </CardWrap>
       </section>
     </>
   );
