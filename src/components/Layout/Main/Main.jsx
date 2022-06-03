@@ -2,19 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import CampCard from "../../CampCard";
 import CommunityCard from "../../CommunityCard";
+import MainBanner from "./MainBanner";
 
 const Main = () => {
   return (
     <>
-      <section className="main-bg">
-        <div>
-          <h4>개발은 <br />카페인과 함께</h4>
-          <img src="#" />
-          <button>&lt;</button>
-          <button>&gt;</button>
-        </div>
-        <img src="#" />
-      </section>
+      <MainBanner />
       <section className="camp-area">
         <CardWrap>{<CampCard />}</CardWrap>
       </section>
