@@ -14,6 +14,7 @@ const CampCard = () => {
 export default CampCard;
 
 const CardContainer = styled.div`
+    box-sizing: border-box;
     width: 224px;
     height: 280px;
     border-radius: 10px;

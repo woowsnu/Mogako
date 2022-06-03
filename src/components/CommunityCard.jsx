@@ -21,7 +21,6 @@ export default CommunityCard;
 
 const CardContainer = styled.div`
     box-sizing: border-box;
-    margin: 0 auto;
     width: 224px;
     height: 280px;
     border-radius: 10px;

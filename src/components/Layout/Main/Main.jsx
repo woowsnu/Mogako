@@ -43,6 +43,7 @@ export default Main;
 
 const CardWrap = styled.div`
   display: flex;
+  justify-content: space-between;
 
   @media (max-width: 680px) {
     white-space: pre-line;
