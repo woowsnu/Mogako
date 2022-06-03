@@ -24,5 +24,20 @@ export type CampDetail = {
     review: {content: string; reviewer: string }
 }
 
+export type User = {
+    id: number;
+    name: string;
+    avatar: String[];
+}
+
+export type CommunityType = {
+    id: number;
+    tag: "취업고민" | string;
+    name: string;
+    summary: String;
+    commentedUser: User[];
+    comment: string;
+}
+
 
 export {}
