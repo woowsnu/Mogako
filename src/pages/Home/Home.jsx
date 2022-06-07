@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import Navigator from "../../components/Navigator/Navigator";
-import Footer from "../../components/Layout/Footer/Footer";
-import Main from "../../components/Layout/Main/Main";
+import Footer from "../../components/Footer/Footer";
+import Main from "../../components/Main/Main";
 
 const Home = () => {
   return (
