@@ -2,16 +2,16 @@ import React from "react";
 import styled from "styled-components";
 import color from "../../styles/color"
 
-const Header = () => {
+const Navigator = () => {
   return (
     <Container>
-      <img src="#" alt="main-logo"/>
-      <img src="#" alt="util-icon"/>
+      <img src={require("../../assets/images/icons/ic-person-white.png")} alt="main-logo"/>
+      <img src={require("../../assets/images/icons/ic-person-white.png")} alt="util-icon"/>
     </Container>
   );
 };
 
-export default Header;
+export default Navigator;
 
 const Container = styled.header`
   background-color: ${color.primary3}
