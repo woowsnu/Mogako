@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
+import Navigator from "../../components/Navigator/Navigator";
 import Footer from "../../components/Layout/Footer/Footer";
-import Header from "../../components/Layout/Header/Header";
-import Main from "../../components/Layout/Main/Main"
+import Main from "../../components/Layout/Main/Main";
 
 const Home = () => {
   return (
     <Container>
-      <Header/>
+      <Navigator/>
       <Main />
       <Footer />
     </Container>
