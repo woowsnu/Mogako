@@ -3,11 +3,13 @@ import styled from "styled-components";
 import Navigator from "../../components/Navigator/Navigator";
 import Footer from "../../components/Footer/Footer";
 import Main from "../../components/Main/Main";
+import MainBanner from "../../components/Main/MainBanner";
 
 const Home = () => {
   return (
     <Container>
-      <Navigator/>
+      <Navigator />
+      <MainBanner />
       <Main />
       <Footer />
     </Container>

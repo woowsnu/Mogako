@@ -3,12 +3,10 @@ import styled from "styled-components";
 import EventBanner from "../Banner/EventBanner";
 import CampCard from "../CampCard";
 import CommunityCard from "../CommunityCard";
-import MainBanner from "./MainBanner";
 
 const Main = () => {
   return (
     <>
-      <MainBanner />
       <section className="camp-area">
         <h2>인기 부트 캠프</h2>
         <CardWrap>
