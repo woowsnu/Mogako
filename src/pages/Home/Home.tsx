@@ -1,15 +1,14 @@
 import React from "react";
-import styled from "styled-components";
-import Navigator from "../../components/Navigator/Navigator";
-import Footer from "../../components/Footer/Footer";
+import Header from "./components/Header";
 import Main from "./components/Main";
-import MainBanner from "./components/MainBanner";
+import Footer from "../../components/Footer/Footer";
+
+import styled from "styled-components";
 
 const Home = () => {
   return (
     <Container>
-      <Navigator />
-      <MainBanner />
+      <Header />
       <Main />
       <Footer />
     </Container>
@@ -19,11 +18,9 @@ const Home = () => {
 export default Home;
 
 const Container = styled.div`
-  display: block;
-  max-width: 960px;
+  box-sizing: border-box;
+  width: 100%;
   margin: 0 auto;
-  background-color: #fff;
-  color: #000;
 
   @media (max-width: 680px) {
     white-space: pre-line;

@@ -1,45 +1,55 @@
 import React from "react";
 import styled from "styled-components";
 import EventBanner from "../../../components/Banner/EventBanner";
-import CampCard from "../../../components/CampCard";
-import CommunityCard from "../../../components/CommunityCard";
+import CampCard from "../../../components/CampCard/CampCard";
+import CommunityCard from "../../../components/CommunityCard/CommunityCard";
 
 const Main = () => {
   return (
-    <>
+    <Container>
       <section className="camp-area">
         <h2>인기 부트 캠프</h2>
-        <CardWrap>
+        <Wrap>
           <CampCard />
           <CampCard />
           <CampCard />
           <CampCard />
-        </CardWrap>
+        </Wrap>
         <h2>특가 할인 캠프</h2>
-        <CardWrap>
+        <Wrap>
           <CampCard />
           <CampCard />
           <CampCard />
           <CampCard />
-        </CardWrap>
+        </Wrap>
       </section>
       <EventBanner />
       <section className="community-area">
       <h2>커뮤니티</h2>
-        <CardWrap>
+        <Wrap>
           <CommunityCard />
           <CommunityCard />
           <CommunityCard />
           <CommunityCard />
-        </CardWrap>
+        </Wrap>
       </section>
-    </>
+    </Container>
   );
 };
 
 export default Main;
 
-const CardWrap = styled.div`
+const Container = styled.main`
+  display: flex;
+  max-width: 960px;
+  justify-content: space-between;
+
+  @media (max-width: 680px) {
+    white-space: pre-line;
+  }
+`;
+
+const Wrap = styled.div`
   display: flex;
   justify-content: space-between;
 
