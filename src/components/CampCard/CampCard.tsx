@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import fonts from "../../styles/font"
 
 const CampCard = () => {
   return (
@@ -21,4 +22,5 @@ const CardContainer = styled.div`
     padding: 0 16px;
     color: #fff;
     background: #eee;
+    ${fonts.H3}
     `;
