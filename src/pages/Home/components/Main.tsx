@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import EventBanner from "../Banner/EventBanner";
-import CampCard from "../CampCard";
-import CommunityCard from "../CommunityCard";
+import EventBanner from "../../../components/Banner/EventBanner";
+import CampCard from "../../../components/CampCard";
+import CommunityCard from "../../../components/CommunityCard";
 
 const Main = () => {
   return (
