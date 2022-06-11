@@ -15,6 +15,7 @@ const Header = () => {
         <img
           className="header-img"
           src={require("../../../assets/images/image.png")}
+          alt="책상 위 물건들"
         />
       </Wrap>
     </Container>
@@ -50,5 +51,28 @@ const Wrap = styled.div`
   .header-img {
     height: 400px;
     border-radius: 10px;
+  }
+
+  @media (max-width: 680px) {
+    white-space: pre-line;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+
+    .header-text {
+      white-space: pre-line;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 48px;
+      text-align: left;
+    }
+
+    .header-img {
+      width: 90vw;
+      border-radius: 10px;
+      margin: 0 auto;
+    }
   }
 `;
