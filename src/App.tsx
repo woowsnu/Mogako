@@ -1,6 +1,6 @@
 import React from 'react';
 import { format } from 'path';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Link, BrowserRouter } from 'react-router-dom';
 import Home from "./pages/Home/Home"
 import CampDetail from './pages/CampDetail/CampDetail';
 
