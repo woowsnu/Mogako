@@ -34,9 +34,6 @@ const CampDetail = () => {
           <div>마감 알림</div>
         </div>
       </div>
-      <div>
-        강의 상세 페이지
-      </div>
     </div>
   )
 }
